@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;@600,@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter',sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%);
+}
+
+
+body{
+    background-color: var(--Off-Black);
+    min-height: 100vh;
+    font-family: 'figtree',sans-serif;
+    display: grid;
+    place-content: center;
+}
+
+.card{
+    background-color: var(--Dark-Grey);
+    max-width: 400px;
+    padding: 1.5rem;
+    margin:1rem;
+    position: relative;
+    border-radius: 1rem;
+    outline: 1px solid #000;
+    display: block;
+    align-items: center;
+}
+
+.card img{
+    width: 40%;
+    border-radius: 200px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: right;
+}
+.card h3{
+    color: var(--Green);
+    text-align: center;
+    margin-top: -8px;
+}
+.card h1{
+    color: var(--White);
+    padding: 10px;
+    text-align: center;
+}
+.card p{
+    color: var(--White);
+    padding: 10px;
+    text-align: center;
+}
+
+
+.card .card1{
+    background-color: var(--Grey);
+    color: var(--White);
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card .card2{
+    background-color: var(--Grey);
+    color: var(--White);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card .card3{
+    background-color: var(--Grey);
+    color: var(--White);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.card .card4{
+    background-color: var(--Grey);
+    color: var(--White);
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.card .card5{
+    background-color: var(--Grey);
+    color: var(--White);
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
